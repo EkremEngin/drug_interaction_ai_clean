@@ -1,9 +1,21 @@
+# --- DATA ---
 data/*.csv
 data/*.json
 !data/brand_map.json
 !data/risk_rules_config.json
 !data/whitelist_drugs.txt
 
-models/*.pkl
-venv/
+# --- MODELS ---
+# Model dosyalarının Git'e eklenmesi gerekiyor, bu yüzden bu satırı kaldırıyoruz:
+# models/*.pkl
+
+# Eğer modeller için klasör oluşturulduysa, önlem olarak pycache klasörlerini ignore et:
+models/__pycache__/
+
+# --- PYTHON CACHE ---
 __pycache__/
+*.pyc
+
+# --- ENVIRONMENT ---
+venv/
+.env
