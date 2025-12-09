@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         setLoading(true);
 
-        fetch("https://drug-interaction-ai.onrender.com/predict", {
+        fetch("https://drug-interaction-ai-clean.onrender.com/predict", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ text: text, style: selectedStyle })
