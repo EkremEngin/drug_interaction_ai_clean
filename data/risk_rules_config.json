@@ -1,0 +1,339 @@
+{
+  "PRIORITY_ORDER": [
+    "GI_BLEED",
+    "QT_PROLONGATION_HIGH",
+    "QT_PROLONGATION_MEDIUM",
+    "CNS_DEPRESSION_HIGH",
+    "CNS_DEPRESSION_MEDIUM",
+    "HEPATIC_HIGH",
+    "HEPATIC_MEDIUM",
+    "LOW_RISK"
+  ],
+
+  "GI_BLEED": {
+    "ANTICOAGULANTS": [
+      "warfarin",
+      "acenocoumarol",
+      "phenprocoumon",
+
+      "dabigatran",
+      "rivaroxaban",
+      "apixaban",
+      "edoxaban",
+      "betrixaban",
+
+      "heparin",
+      "unfractionated heparin",
+      "dalteparin",
+      "enoxaparin",
+      "tinzaparin",
+      "nadroparin",
+
+      "fondaparinux",
+
+      "argatroban",
+      "bivalirudin",
+
+      "alteplase",
+      "tenecteplase",
+      "reteplase",
+
+      "streptokinase",
+      "urokinase"
+    ],
+
+    "ANTIPLATELETS": [
+      "aspirin",
+      "acetylsalicylic acid",
+
+      "clopidogrel",
+      "prasugrel",
+      "ticagrelor",
+      "cangrelor",
+      "ticlopidine",
+
+      "dipyridamole",
+      "aspirin/dipyridamole",
+
+      "abciximab",
+      "eptifibatide",
+      "tirofiban",
+
+      "cilostazol",
+      "vorapaxar"
+    ],
+    "NSAIDS": [
+      "ibuprofen",
+      "naproxen",
+      "diclofenac",
+      "ketoprofen",
+      "indomethacin",
+      "piroxicam",
+      "meloxicam",
+      "tenoxicam",
+      "lornoxicam",
+      "etodolac",
+      "celecoxib",
+      "etoricoxib",
+      "valdecoxib",
+      "rofecoxib",
+      "parecoxib",
+
+      "ketorolac",
+      "flurbiprofen",
+      "mefenamic acid",
+      "nimesulide",
+      "oxaprozin",
+      "sulindac",
+      "tolmetin"
+    ],
+
+    "OTHER": [
+      "corticosteroids",
+      "prednisone",
+      "prednisolone",
+      "methylprednisolone",
+      "dexamethasone",
+      "betamethasone",
+
+      "spironolactone",
+      "eplerenone",
+
+      "ssri",
+      "fluoxetine",
+      "sertraline",
+      "paroxetine",
+      "citalopram",
+      "escitalopram",
+      "fluvoxamine",
+
+      "snri",
+      "venlafaxine",
+      "desvenlafaxine",
+      "duloxetine",
+      "milnacipran",
+
+      "tricyclic antidepressant",
+      "amitriptyline",
+      "imipramine",
+      "clomipramine",
+      "nortriptyline",
+
+      "valproic acid",
+      "sodium valproate"
+    ]
+  },
+  "QT_PROLONGATION": {
+    "HIGH": [
+      "amiodarone",
+      "dofetilide",
+      "ibutilide",
+      "sotalol",
+      "dronedarone",
+
+      "quinidine",
+      "procainamide",
+      "disopyramide",
+
+      "d,l-sotalol",
+
+      "cisapride",
+      "domperidone",
+
+      "astemizole",
+      "terfenadine",
+
+      "halofantrine",
+      "chloroquine",
+      "quinine",
+
+      "arsenic trioxide"
+    ],
+
+    "MEDIUM": [
+      "clarithromycin",
+      "erythromycin",
+      "azithromycin",
+      "levofloxacin",
+      "moxifloxacin",
+      "ciprofloxacin",
+      "ofloxacin",
+      "gatifloxacin",
+
+      "fluconazole",
+      "voriconazole",
+      "itraconazole",
+      "ketoconazole",
+
+      "haloperidol",
+      "droperidol",
+      "chlorpromazine",
+      "thioridazine",
+      "ziprasidone",
+      "quetiapine",
+      "risperidone",
+      "olanzapine",
+
+      "citalopram",
+      "escitalopram",
+      "venlafaxine",
+      "trazodone",
+      "mirtazapine",
+
+      "methadone",
+      "buprenorphine",
+
+      "ondansetron",
+      "granisetron",
+      "dolasetron"
+    ],
+
+    "OTHER": [
+      "ranolazine",
+      "lapatinib",
+      "sunitinib",
+      "nilotinib",
+      "dasatinib",
+      "sorafenib",
+      "vandetanib",
+
+      "lopinavir/ritonavir",
+      "saquinavir",
+      "atazanavir"
+    ]
+  },
+  "CNS_DEPRESSION": {
+    "HIGH": [
+      "morphine",
+      "oxycodone",
+      "hydromorphone",
+      "fentanyl",
+      "alfentanil",
+      "remifentanil",
+      "meperidine",
+      "codeine",
+      "tramadol",
+      "tapentadol",
+
+      "midazolam",
+      "diazepam",
+      "lorazepam",
+      "alprazolam",
+      "clonazepam",
+      "temazepam",
+      "nitrazepam",
+      "flurazepam",
+
+      "barbiturate",
+      "phenobarbital",
+      "thiopental",
+      "pentobarbital",
+
+      "propofol",
+      "etomidate",
+      "ketamine"
+    ],
+
+    "MEDIUM": [
+      "gabapentin",
+      "pregabalin",
+      "valproic acid",
+      "carbamazepine",
+      "oxcarbazepine",
+      "lamotrigine",
+      "topiramate",
+      "levetiracetam",
+
+      "quetiapine",
+      "olanzapine",
+      "risperidone",
+      "clozapine",
+
+      "zopiclone",
+      "eszopiclone",
+      "zolpidem",
+      "zaleplon",
+
+      "baclofen",
+      "tizanidine",
+      "cyclobenzaprine",
+
+      "first generation antihistamine",
+      "diphenhydramine",
+      "chlorpheniramine",
+      "dimenhydrinate",
+      "promethazine"
+    ],
+
+    "OTHER": [
+      "alcohol",
+      "ethanol",
+      "cannabis",
+      "opioid",
+      "benzodiazepine",
+      "sedative hypnotic"
+    ]
+  },
+  "HEPATIC": {
+    "HIGH": [
+      "isoniazid",
+      "rifampin",
+      "rifampicin",
+      "pyrazinamide",
+      "ethionamide",
+
+      "ketoconazole",
+      "itraconazole",
+      "voriconazole",
+
+      "valproic acid",
+      "sodium valproate",
+
+      "methotrexate",
+      "leflunomide",
+      "azathioprine",
+      "6-mercaptopurine",
+
+      "amiodarone",
+      "dronedarone",
+
+      "diclofenac",
+      "nimesulide",
+      "sulindac",
+      "piroxicam",
+
+      "chlorpromazine",
+      "halothane"
+    ],
+
+    "MEDIUM": [
+      "statin",
+      "simvastatin",
+      "atorvastatin",
+      "lovastatin",
+      "pravastatin",
+      "rosuvastatin",
+      "fluvastatin",
+
+      "paracetamol high dose",
+      "acetaminophen high dose",
+
+      "phenytoin",
+      "carbamazepine",
+
+      "nevirapine",
+      "efavirenz",
+
+      "nitrofurantoin",
+      "minocycline"
+    ],
+
+    "OTHER": [
+      "herbal hepatotoxic",
+      "kava",
+      "green tea extract high dose",
+      "black cohosh",
+      "germander"
+    ]
+  }
+}

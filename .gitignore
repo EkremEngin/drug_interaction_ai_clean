@@ -1,0 +1,9 @@
+data/*.csv
+data/*.json
+!data/brand_map.json
+!data/risk_rules_config.json
+!data/whitelist_drugs.txt
+
+models/*.pkl
+venv/
+__pycache__/
